@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>events</title>
+</head>
+
+<body>
+    <h1>even nia cliclbaji</h1>
+    <button onclick="document.body.style.backgroundColor='yellow' ">click me :yellow</button>
+
+    <button onclick="makeRed()">click me :red</button>
+
+    <button id="make-blue-button">click me :blue</button>
+
+    <button id="make-green-button">click me :green</button>
+
+
+    <button id="make-lightSeaGreen">click me :lightseagreen</button>
+
+    <button id="make-pink-button">click me :pink</button>
+
+    <button id="make-slateGray-button">click me :slate gray</button>
+
+
+
+
+
+    <script src="js/event.js"></script>
+
+
+    <script>
+        document.getElementById('make-slateGray-button').addEventListener('click', function () {
+            document.body.style.backgroundColor = 'slategray';
+        })
+
+    </script>
+</body>
+
+</html>
